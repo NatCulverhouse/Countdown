@@ -40,3 +40,44 @@ body {
 .waiting {
     height: 50vh;
 }
+
+@media (max-width: 800px) {
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    body {
+        background-color: cadetblue;
+    }
+    
+    .day,.hour,.minute,.second {
+        font-size: 2rem;
+    }
+
+    .comming-soon {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .countdown{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .date {
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .waiting {
+        height: 50vh;
+    }
+}
