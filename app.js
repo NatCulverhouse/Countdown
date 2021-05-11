@@ -21,6 +21,4 @@ const countdown = () => {
     console.log(gap);
 };
 
-
-
 setInterval(countdown, 1000);
