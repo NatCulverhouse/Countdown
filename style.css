@@ -14,6 +14,15 @@ body {
     background-color: cadetblue;
 }
 
+.input-date{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 50vh;
+}
+
 .comming-soon {
     min-height: 100vh;
     display: flex;
